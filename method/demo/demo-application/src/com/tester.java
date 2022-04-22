@@ -1,0 +1,12 @@
+package com;
+
+import com.xworkz.demoapp.Demo;
+
+public class tester {
+	public static void main()
+	{
+		String res=Demo.name;
+		System.out.println(res);
+	}
+
+}

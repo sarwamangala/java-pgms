@@ -1,0 +1,13 @@
+package com;
+
+import com.xworkz.StringPgm.demo;
+
+public class tester
+{
+public static void main(String []args)
+{
+	String res=demp.name;
+	System.out.println("my ")
+}
+
+}

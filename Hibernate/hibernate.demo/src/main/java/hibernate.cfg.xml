@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernet-configuration>
+<session-factory>
+<properety name="hibernet.drivr-rClass">com.mysql.cj.jdbc.Driver</properety>
+<properety name="hibernet.connection.url">jdbc:mysql://localhost:3306/jan06</properety>
+<properety name="hibernet.connection.username">root</properety>
+<properety name="hibernet.connection.password"></properety>
+<mapping class="com.xworkz.hibernatedemo.entity.RestaurantEntity"/>
+</session-factory>
+</hibernet-configuration>

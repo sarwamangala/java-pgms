@@ -1,0 +1,5 @@
+
+public class  Demo {
+public  static  String name = "Hello world, welcom to the java";
+public  static  String name1=" ";
+}

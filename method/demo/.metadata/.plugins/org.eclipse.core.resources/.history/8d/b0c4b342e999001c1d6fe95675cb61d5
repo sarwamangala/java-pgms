@@ -1,0 +1,10 @@
+package com.xworkz.demoapp;
+
+public class Tester {
+	public static void main()
+	{
+		String res=Demo.name;
+		System.out.println(res);
+	}
+
+}
