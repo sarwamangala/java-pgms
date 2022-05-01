@@ -8,16 +8,37 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="restaurant")
 public class RestaurantEntity {
+	
 @Id
 @Column(name="id")
 	private int restaurantId;
-@Column(name="contactno")
-	private int contactNo;
-@Column(name="name"
-)
-	private String name;
-	private String type;
-	private double rating;
+@Column(name="contact_tno")
+	private long contactNo;
+public void setName(String string) {
+	// TODO Auto-generated method stub
+	
 }
+public void setRating(double d) {
+	// TODO Auto-generated method stub
+	
+}
+public void setcontactNo(long l) {
+	// TODO Auto-generated method stub
+	
+}
+public void setRestaurantId(int i) {
+	// TODO Auto-generated method stub
+	
+}
+public void setType(String string) {
+	// TODO Auto-generated method stub
+	
+}
+		
+	}
+
+		
+	
+
 	
 	

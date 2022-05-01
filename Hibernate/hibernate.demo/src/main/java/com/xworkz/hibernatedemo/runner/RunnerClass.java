@@ -1,22 +1,21 @@
 package com.xworkz.hibernatedemo.runner;
+import com.xworkz.hibernatedemo.dao.RestaurantDAO;
 import com.xworkz.hibernatedemo.entity.RestaurantEntity;
 
 
-
-public  void saveRestaurant("RestaurantEntity entity") {
 public class RunnerClass {
 	public static void main(String []args) {
-	  RestaurantEntity restaurantEntity=new RestaurantEntity;
+	  RestaurantEntity restaurantEntity=new RestaurantEntity();
 	  restaurantEntity.setRestaurantId(1);
-	  restaurantEntity.setContactNo(876435889889989);
+	  restaurantEntity.setcontactNo(8764358898L);
 	  restaurantEntity.setName("saru");
-	  restaurantEntity.setRating(4.1);
+ restaurantEntity.setRating(4.1);
 	  restaurantEntity.setType("Udupi garden");
 	  
 	  
 	  
-	  ReatorantDAO RESTAURANTdao=new RestaurantDAO();
-	  restaurantDAO.saveRerestaurant(restaurantEntity);
+	  RestaurantDAO restaurantdao=new RestaurantDAO();
+	  restaurantdao.saveRerestaurant(restaurantEntity);
 	  System.out.println("save Succesfull");
 	  
 	  
@@ -25,6 +24,6 @@ public class RunnerClass {
 	}
 	
 }
-	}
+	
 
 
